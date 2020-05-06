@@ -34,6 +34,7 @@ int main(){
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
     menu();
+    sortTableByName();
     ofstream record;
     record.open("D:\pz1-1.txt");
     for (int i = 0; i < n; i++){
